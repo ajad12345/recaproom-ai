@@ -1,0 +1,14 @@
+Library App Project - Weekly Sync, Week 1 (synthetic sample)
+Anita: Good morning everyone. Let's review where the library app project stands.
+Ravi: The login screen is ready for review and the API schema is drafted.
+Anita: Great. We agreed to use SQLite for the offline cache.
+Meena: I will write the renewal API endpoint by Friday.
+Ravi: I'll fix the login timeout bug by Wednesday.
+Karthik: I will prepare the user testing questionnaire by next week.
+Anita: Meena, can you please update the project wiki with the API schema?
+Meena: Sure, I will do that.
+Ravi: Who is going to book the demo room for the final review?
+Anita: Not sure yet. We should find out whether the department can provide a projector.
+Karthik: Should we run the usability test with first-year students or all years?
+Anita: Let's decide that next time.
+Anita: Thanks everyone, see you next week.

@@ -1,0 +1,11 @@
+Library App Project - Weekly Sync, Week 2 (synthetic sample)
+Anita: Welcome back. Let's check last week's items first.
+Meena: The renewal API endpoint is done and merged.
+Ravi: The login timeout bug is still open, it is taking longer than expected.
+Karthik: I have not started the questionnaire yet, I will draft it on Thursday.
+Anita: We decided to run the usability test with first-year students only.
+Meena: I will integrate the renewal endpoint into the app by Monday.
+Anita: Ravi will set up the CI pipeline by Friday.
+Ravi: Who is going to book the demo room for the final review?
+Anita: Still not sure. Please keep that on the list.
+Anita: Thanks everyone, see you next week.

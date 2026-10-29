@@ -1,0 +1,20 @@
+Weekly Product Sync - Checkout Redesign (synthetic sample)
+Maya: Good morning everyone. Let's start with the checkout redesign status.
+Dev: The new payment form is ready for review. I tested it on three browsers and found no layout problems.
+Maya: Great. Last week we were unsure about the rollout. We agreed to use a feature flag so we can switch the redesign on for ten percent of users first.
+Priya: I will set up the feature flag configuration by Friday.
+Maya: Thanks, Priya. Dev, can you please write the test cases for the new payment form?
+Dev: Sure, I'll write the test cases by next Tuesday.
+Sam: The analytics dashboard still shows a gap in the checkout funnel data. We need to fix the event tracking before the launch.
+Maya: Who is going to look into the event tracking issue?
+Sam: I am not sure how long it will take, but I can start today.
+Maya: Okay, Sam will investigate the tracking gap and report back at the next sync.
+Dev: One risk is that the payment provider may change its API in the next quarter.
+Maya: Good point. We decided to postpone the discount code feature until after the launch.
+Priya: Should we also run an A/B test on the button colour?
+Maya: Maybe. Someone needs to prepare the A/B test report template.
+Sam: The marketing team asked when the launch date will be confirmed.
+Maya: We don't have a confirmed date yet. Let's discuss it when the feature flag is ready.
+Dev: What happens to users who are in the middle of checkout when we switch the flag?
+Maya: That is an open question. We should check with the backend team.
+Maya: Thanks everyone. See you next week.

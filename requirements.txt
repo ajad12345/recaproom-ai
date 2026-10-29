@@ -1,0 +1,27 @@
+# RecapRoom AI — Python dependencies
+# Install with: pip install -r requirements.txt
+
+# ── Streamlit ─────────────────────────────────────────────────────────────────
+streamlit>=1.40.0
+
+# ── Pydantic v2 (data models + validation) ───────────────────────────────────
+pydantic>=2.9.2
+
+# ── LLM providers ────────────────────────────────────────────────────────────
+groq>=0.11.0
+google-generativeai>=0.8.3
+
+# ── Environment variable loading (local dev) ─────────────────────────────────
+python-dotenv>=1.0.1
+
+# ── Text similarity (verifier fuzzy matching) ────────────────────────────────
+# rapidfuzz is used if installed; otherwise backend automatically falls back to difflib
+rapidfuzz>=3.9.0
+
+# ── Presentation & Asset Generation ──────────────────────────────────────────
+python-pptx>=1.0.0
+pillow>=10.0.0
+
+# ── Testing ───────────────────────────────────────────────────────────────────
+pytest>=8.3.0
+pytest-mock>=3.14.0
