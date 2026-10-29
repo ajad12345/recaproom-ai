@@ -105,21 +105,28 @@ def create_presentation():
     p3.space_before = Pt(12)
 
     # Info footer card
-    info_card = add_card(s1, Inches(1.0), Inches(5.2), Inches(11.3), Inches(1.4), bg_color=RGBColor(30, 41, 59), border_color=RGBColor(51, 65, 85))
+    info_card = add_card(s1, Inches(1.0), Inches(5.0), Inches(11.3), Inches(1.8), bg_color=RGBColor(30, 41, 59), border_color=RGBColor(51, 65, 85))
     itf = info_card.text_frame
     itf.margin_left = Inches(0.4)
-    itf.margin_top = Inches(0.25)
+    itf.margin_top = Inches(0.2)
     ip1 = itf.paragraphs[0]
-    ip1.text = "Target Users: Students, Agile Software Teams, Project Coordinators"
+    ip1.text = "Team Members: Jammu Dinesh (23341A05A3) · Manish Sharma (23341A05F7) · Mohammed Ajad (23341A05G3)"
     ip1.font.size = Pt(14)
     ip1.font.bold = True
     ip1.font.color.rgb = C_WHITE
     
     ip2 = itf.add_paragraph()
-    ip2.text = "Tech Stack: Streamlit 1.40 | Python 3.12 | Pydantic v2 | Groq API (Llama 3.3) | Google Gemini | Offline Rule Engine"
+    ip2.text = "GMR Institute of Technology (GMRIT) — Department of Computer Science & Engineering"
     ip2.font.size = Pt(12)
-    ip2.font.color.rgb = RGBColor(148, 163, 184)
-    ip2.space_before = Pt(6)
+    ip2.font.color.rgb = C_PRIMARY_RED
+    ip2.font.bold = True
+    ip2.space_before = Pt(4)
+
+    ip3 = itf.add_paragraph()
+    ip3.text = "Target Users: Students, Agile Teams, Coordinators | Stack: Streamlit 1.40 · Python 3.12 · Pydantic v2 · Groq · Gemini"
+    ip3.font.size = Pt(11)
+    ip3.font.color.rgb = RGBColor(148, 163, 184)
+    ip3.space_before = Pt(4)
 
     # --------------------------------------------------------------------------
     # SLIDE 2: Problem Statement & Motivation
@@ -487,10 +494,10 @@ def create_presentation():
     sp1.font.color.rgb = C_WHITE
     
     links = [
-        ("GitHub Repository", "Ready for submission (clean modular codebase, zero secrets committed)"),
+        ("Project Team", "Jammu Dinesh (23341A05A3), Manish Sharma (23341A05F7), Mohammed Ajad (23341A05G3) — GMRIT"),
+        ("GitHub Repository", "https://github.com/ajad12345/recaproom-ai"),
         ("Streamlit Community Cloud", "Deployed app with 1-click Demo Mode (no key required for evaluator)"),
-        ("Technical Documentation", "docs/project_report.md & docs/deployment_guide.md included"),
-        ("Test Suite Verification", "55 tests passing locally and in CI/CD pipeline")
+        ("Test Suite Verification", "55 automated tests passing locally and in CI/CD pipeline")
     ]
     for l_title, l_desc in links:
         p = stf.add_paragraph()

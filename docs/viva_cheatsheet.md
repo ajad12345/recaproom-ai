@@ -1,5 +1,10 @@
 # Viva Cheat-Sheet: RecapRoom AI
 
+## Team Members & Module Ownership (GMRIT - CSE)
+1. **Jammu Dinesh (23341A05A3)** — Lead: Preprocessing, line-number indexing, chunking & Map-Reduce summarization pipeline.
+2. **Manish Sharma (23341A05F7)** — Lead: LLM integrations (Groq & Gemini), prompt engineering, offline mock engine & config.
+3. **Mohammed Ajad (23341A05G3)** — Lead: Streamlit UI, deterministic anti-hallucination verifier, meeting comparison diff, test suite & deployment.
+
 ## 30-second pitch
 RecapRoom turns lecture/meeting transcripts into notes where every item is labelled **Stated** (with a quote and line number) or
 **Inferred**, and where owners and deadlines are never invented.

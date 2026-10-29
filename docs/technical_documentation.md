@@ -2,6 +2,11 @@
 
 **Document Version:** 2.0  
 **Project:** RecapRoom AI — Lecture and Meeting Summarizer  
+**Institution:** GMR Institute of Technology (GMRIT) — Department of Computer Science & Engineering  
+**Authors:**
+- **Jammu Dinesh** (Roll No: `23341A05A3`)
+- **Manish Sharma** (Roll No: `23341A05F7`)
+- **Mohammed Ajad** (Roll No: `23341A05G3`)  
 **Target Audience:** Evaluators, Lead Software Engineers, NLP Researchers, System Architects  
 
 ---

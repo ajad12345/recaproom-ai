@@ -285,12 +285,10 @@ comparison, and headless UI flows. See [docs/test_report.md](docs/test_report.md
 
 **RecapRoom AI** was built as a student project for the GMRIT Grand AI & NLP Projects Handbook.
 
-**Team members:**
-- Member 1 — UI (app.py, pages/, components/)
-- Member 2 — LLM service, prompts, config, mock mode
-- Member 3 — Preprocess, chunker, summariser pipeline
-- Member 4 — Verifier, validators, exporter, comparer
-- Member 5 — Tests, sample data, docs, deployment
+**Team Members (GMR Institute of Technology - Department of CSE):**
+- **Jammu Dinesh (23341A05A3)** — Core Pipeline: Preprocessing, line-number indexing, overlapping chunker & Map-Reduce summarization.
+- **Manish Sharma (23341A05F7)** — LLM Services: Provider integrations (Groq & Gemini), prompt templates, offline mock engine & config.
+- **Mohammed Ajad (23341A05G3)** — Frontend & Verification: Streamlit UI, deterministic anti-hallucination verifier, meeting comparison diff, test suite & cloud deployment.
 
 **Libraries:** Streamlit, Pydantic, Groq, Google GenerativeAI, rapidfuzz, python-dotenv, pytest.
 
@@ -320,12 +318,10 @@ feat/docs                "Add README, viva cheatsheet, presentation outline"
 
 **Before every push:** run `git status` and `pytest -q`. **Never commit `.env` or API keys.**
 
-### Team work split
+### Team Work Split (3 Members)
 
-| Member | Responsibility |
-|---|---|
-| **Member 1** | `app.py`, `pages/`, `components/` |
-| **Member 2** | `backend/services/llm_service.py`, `backend/core/prompts.py`, `backend/config.py`, `backend/services/mock_llm.py` |
-| **Member 3** | `backend/core/preprocess.py`, `backend/core/chunker.py`, `backend/core/summarizer.py` |
-| **Member 4** | `backend/core/verifier.py`, `backend/utils/validators.py`, `backend/core/exporter.py`, `backend/core/comparer.py` |
-| **Member 5** | `tests/`, `data/sample/`, `docs/`, `assets/`, deployment |
+| Team Member | Roll Number | Key Responsibilities & Modules |
+|---|---|---|
+| **Jammu Dinesh** | `23341A05A3` | `backend/core/preprocess.py`, `backend/core/chunker.py`, `backend/core/summarizer.py`, Map-Reduce pipeline, long-transcript testing |
+| **Manish Sharma** | `23341A05F7` | `backend/services/llm_service.py`, `backend/services/mock_llm.py`, `backend/core/prompts.py`, `backend/config.py`, prompt injection defense |
+| **Mohammed Ajad** | `23341A05G3` | `app.py`, `components/`, `pages/`, `backend/core/verifier.py`, `backend/core/comparer.py`, `backend/core/exporter.py`, `tests/`, deployment |

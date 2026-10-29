@@ -16,7 +16,7 @@ from components.sidebar import render_sidebar
 from components.ui_theme import inject_custom_theme, render_hero_header
 
 st.set_page_config(page_title="RecapRoom AI — Lecture and Meeting Summarizer", page_icon="🎙️", layout="wide", initial_sidebar_state="expanded",
-                   menu_items={"About": "RecapRoom AI: Lecture and Meeting Summarizer (GMRIT student project)"})
+                   menu_items={"About": "RecapRoom AI by Jammu Dinesh (23341A05A3), Manish Sharma (23341A05F7), Mohammed Ajad (23341A05G3) — GMRIT CSE"})
 inject_custom_theme()
 log = get_logger("app")
 st.session_state.setdefault("reset_counter", 0)

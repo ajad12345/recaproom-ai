@@ -36,3 +36,12 @@ st.markdown(
 st.header("Responsible use")
 st.write("RecapRoom is an educational note-taking assistant. Do not rely on it alone for decisions with legal, "
          "financial, health or career consequences. Always check important items against the original transcript.")
+
+st.divider()
+st.header("👥 Project Team")
+st.markdown("""
+**GMR Institute of Technology (GMRIT) — Department of Computer Science & Engineering**
+- **Jammu Dinesh** (`23341A05A3`) — Preprocessing, Line Indexing, Chunker & Map-Reduce Pipeline
+- **Manish Sharma** (`23341A05F7`) — LLM Integrations (Groq & Gemini), Prompts & Offline Engine
+- **Mohammed Ajad** (`23341A05G3`) — Streamlit UI, Deterministic Verifier, Meeting Diff & Cloud Deployment
+""")
