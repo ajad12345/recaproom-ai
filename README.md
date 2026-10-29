@@ -137,7 +137,7 @@ recaproom-ai/
 
 ```powershell
 # Clone the repo
-git clone https://github.com/your-org/recaproom-ai.git
+git clone https://github.com/ajad12345/recaproom-ai.git
 cd recaproom-ai
 
 # Create and activate a virtual environment
@@ -154,7 +154,7 @@ copy .env.example .env
 
 **macOS / Linux:**
 ```bash
-git clone https://github.com/your-org/recaproom-ai.git
+git clone https://github.com/ajad12345/recaproom-ai.git
 cd recaproom-ai
 python3 -m venv .venv
 source .venv/bin/activate
@@ -241,7 +241,8 @@ comparison, and headless UI flows. See [docs/test_report.md](docs/test_report.md
 | ![Compare Two Meetings](assets/04_compare_meetings.png) | **4. Cross-Meeting Comparative Diff:** Tracks actions across recurring syncs (completed, unresolved, new actions, carried-over questions). |
 
 ### Deliverables & Artifacts
-- **Live Streamlit App:** `https://recaproom-ai.streamlit.app` *(Follow docs/deployment_checklist.md to connect your fork)*
+- **GitHub Repository:** [https://github.com/ajad12345/recaproom-ai](https://github.com/ajad12345/recaproom-ai)
+- **Live Streamlit App:** `https://recaproom-ai.streamlit.app` *(or your custom app URL on Streamlit Cloud)*
 - **Executive Presentation:** [RecapRoom_AI_Presentation.pptx](RecapRoom_AI_Presentation.pptx) (16:9 widescreen, industry-standard slides)
 - **Technical Documentation:** [docs/technical_documentation.md](docs/technical_documentation.md)
 - **Empirical Test Report (55/55 passed):** [docs/test_report.md](docs/test_report.md)
