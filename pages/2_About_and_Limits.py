@@ -2,8 +2,10 @@
 import streamlit as st
 
 from components.sidebar import render_sidebar
+from components.ui_theme import inject_custom_theme
 
 st.set_page_config(page_title="About & Limits · RecapRoom AI", page_icon="ℹ️", layout="wide")
+inject_custom_theme()
 render_sidebar()
 
 st.title("ℹ️ About, Privacy and Limits")

@@ -7,15 +7,16 @@ from backend.utils.logging_utils import get_logger
 from backend.utils.samples import list_samples, read_sample
 from backend.utils.validators import validate_text_input
 from components.sidebar import render_sidebar
+from components.ui_theme import inject_custom_theme
 
 st.set_page_config(page_title="Compare Meetings · RecapRoom AI", page_icon="🔁", layout="wide")
+inject_custom_theme()
 log = get_logger("compare_page")
 settings = render_sidebar()
 
 st.title("🔁 Compare Two Meetings")
-st.write("Find out which action items from **Meeting A** were completed, are still open, or have no follow-up in "
-         "**Meeting B**, and which actions are new. Matching is rule-based and explained; weak matches are "
-         "flagged as *uncertain* instead of being forced.")
+st.write("Track action items across recurring meetings to identify which commitments were **completed**, "
+         "remain **still open / unresolved**, or are **new in Meeting B**. Matches use deterministic token similarity.")
 st.session_state.setdefault("cmp_a", read_sample("weekly_pair_week1.txt"))
 st.session_state.setdefault("cmp_b", read_sample("weekly_pair_week2.txt"))
 
